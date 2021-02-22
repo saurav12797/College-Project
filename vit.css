@@ -1,0 +1,244 @@
+*
+{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#left
+{
+    height: 40px;
+    width: 65%;
+    background-color: #000080;
+}
+#right
+{ height: 40px;
+    width: 35%;
+    background-color:#F63853;
+     float: right;
+     margin-top:-2.6%;
+     line-height: 40px;
+     
+    
+   
+}
+#right ul 
+{
+    
+    float:right;
+    list-style-type: none;
+    
+  
+    
+}
+ #right ul a
+ {
+     color: white;
+       margin-right: 60px;
+       font-weight: 900;
+       text-decoration: none;
+       display: inline-block;
+       
+ }
+/* ................................... */
+
+#down
+{
+    margin-top: 1px;
+    background-color:#F63853; 
+    height: 70px;
+}
+#down h3
+{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+#down h3 a
+{
+    color: #FFFF00;
+}
+marquee
+{
+    color: white;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.navbar
+{
+    background-color: #373F6E;
+    height: 110px;
+    
+}
+
+
+.navbar ul
+{
+  float: right;
+  margin-right: 10px;
+ 
+  
+}
+ .navbar li
+ {
+     
+       margin-right: 20px;
+       font-weight: 900;
+       
+       display: inline-block;
+       padding-top: 25px;
+       line-height: 40PX;
+
+         
+ }
+ .navbar li a
+ {
+    color: white;
+    text-decoration: none;
+ }
+
+ .navbar li a:hover
+ {
+    transition: background-color 0.5s ease;
+  background-color:black;
+  opacity: 0.5;
+  
+ 
+ }
+
+ /* menu */
+
+ .navbar #menu
+{
+  float: right;
+  margin-right: 100px;
+ 
+  
+}
+ .navbar #menu li
+ {
+     
+       margin-right: 20px;
+         font-size: 13px;
+       
+       display: inline-block;
+       padding-top: 20px;
+       line-height: 10px;
+
+         
+ }
+ .navbar  #menu li a
+ {
+    color: #DDDFE7;
+    text-decoration: none;
+ }
+
+.image
+{
+    
+
+    background-image: url('vit-ioe-updated-opti_0.jpg');
+   
+    
+    background-repeat: no-repeat;
+    min-height: 70%;
+  min-width: 500px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  background-size: cover;
+	
+  /* Set up positioning */
+  position:fixed;
+  
+    
+
+}
+.arrow
+{
+    color: white;
+    font-weight: 900;
+    margin-left: 5px;
+}
+.plusfont
+{
+    margin-left: 5px;
+}
+
+table,td
+{
+    border: .1px solid white;
+    margin-left: 80%;
+    margin-top: 5%;
+    width: 350px;
+    height: 50px;
+   
+    color: white;
+    border-collapse: collapse;background-color: #373F46;
+    font-weight: bold;
+    
+}
+.capicon
+{
+    margin: 0 10px;
+   
+}
+@media(max-width:1300px)
+{
+ 
+ .navbar ul
+{
+  float: left;
+  margin-right:5px;
+  font-size: 13px;
+ 
+  
+}
+ .navbar li
+ {
+     
+       margin-right: 20px;
+       font-weight: 900;
+       
+       display: inline-block;
+       padding-top: 25px;
+       line-height: 40PX;
+
+         
+ }
+ #left
+{
+    height: 40px;
+    width: 65%;
+    background-color: #000080;
+}
+#right
+{ height: 40px;
+    width: 35%;
+    background-color:#F63853;
+     float: right;
+     margin-top:-3.5%;
+     line-height: 40px;
+     font-size: 11px;
+     
+  
+}
+table,td
+{
+    border: .1px solid white;
+    margin-left: 70%;
+    margin-top: 5%;
+    width: 350px;
+    height: 50px;
+   
+    color: white;
+    border-collapse: collapse;background-color: #373F46;
+    font-weight: bold;
+    
+}
+
+}
